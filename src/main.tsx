@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './views/Home.tsx'
 import { ImagesContextProvider } from './context/images_context.tsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import ReviewPage from './views/Review.tsx'
 import SavePage from './views/Save.tsx'
 import Impressum from './views/Impressum.tsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Home />,
