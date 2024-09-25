@@ -83,7 +83,7 @@ export default function Home() {
                     <CardContent>
                         <p>This application helps to sort through old pictures and quickly select only photos to keep.</p>
                         <p>Everything is done on this browser, your photos are NOT sent to any server and remain on your device.</p>
-                        <p>You start by selecting a folder containing the images. Then you can go through all picutres and accept (keyboard shortcut 'p') or reject (keyboard shortcut x). After finishing, all accepted pictures will be copied to a new folder. The original files will not be deleted or modified. The author of this app still advices to make a copy (backup) of your data before proceeding.</p>
+                        <p>You start by selecting a folder containing the images. Then you can go through all picutres and accept (keyboard shortcut 'p') or reject (keyboard shortcut x). After finishing, all accepted pictures will be copied to a new folder. The original files will not be deleted or modified. <b>This app is in BETA state, the author of this app advices to make a copy (backup) of your data before proceeding.</b></p>
                     </CardContent>
                 </Card>
                 {isBrowserCompatible &&
@@ -157,7 +157,7 @@ export default function Home() {
                 }
             </div>
             <div className="flex flex-row gap-2 justify-center">
-                <p>Open-Source on <a href="https://github.com/enrico-kaack/photo-sort">GitHub</a></p>
+                <p>Open-Source on <a href="https://github.com/enrico-kaack/photo-sort">GitHub, please give feedback or report bugs</a></p>
                 <Separator orientation="vertical" />
                 <NavLink to="/impressum">Impressum</NavLink>
             </div>
