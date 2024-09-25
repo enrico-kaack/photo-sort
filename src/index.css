@@ -72,7 +72,15 @@
 }
 
 #root {
-  margin: 0.5rem;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
