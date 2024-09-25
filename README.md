@@ -4,7 +4,7 @@
 
 **Photo Sort** is a simple web application designed to help you sort through old pictures quickly and efficiently. Using the browser's File System API, it allows you to load images from an input folder, decide whether to keep or discard each image, and save accepted images to a new output folder. The entire process is done locally within your browser, ensuring that your images never leave your device or get uploaded to a server.
 
-This project is built with **React** and emphasizes local, client-side processing for privacy and speed.
+This project is built with React and emphasizes local, client-side processing for privacy and speed.
 
 ## Features
 
@@ -19,12 +19,12 @@ This project is built with **React** and emphasizes local, client-side processin
 ![Review page screenshot. Showing the image and exif information and a image gallery with marked images as accepted and rejected.](./screenshots/review.png)
 ![Save page screenshot. Showing the result of the save process.](./screenshots/save.png)
 
-## Installation
+## Local Installation
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/)
-- npm or [yarn](https://yarnpkg.com/)
+- Node.js
+- npm
 
 ### Steps to Install
 
