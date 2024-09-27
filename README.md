@@ -29,9 +29,9 @@ This project is built with React and emphasizes local, client-side processing fo
 ### Steps to Install
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/enrico-kaack/photo-sort.git
-   cd photo-sort
+```bash
+git clone https://github.com/enrico-kaack/photo-sort.git
+cd photo-sort
 ```
 2. Install the dependencies:
 ```bash
